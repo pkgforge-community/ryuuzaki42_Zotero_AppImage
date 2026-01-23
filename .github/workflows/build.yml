@@ -48,7 +48,7 @@ jobs:
         version=$(grep -o "Zotero:.*" README.md | cut -d ' ' -f2)
         echo "Zotero version: $version"
 
-        wget "https://download.zotero.org/client/release/$version/Zotero-${version}_linux-x86_64.tar.bz2"
+        wget "https://download.zotero.org/client/release/$version/Zotero-${version}_linux-x86_64.tar.xz"
         tar -xvf "Zotero-${version}_linux-x86_64.tar.bz2"
 
     - name: Make Appimage
