@@ -84,7 +84,7 @@ jobs:
         ln -s Zotero_linux-x86_64/icons/icon128.png Zotero.png
         ls -lah
 
-        rm -v "Zotero-${version}_linux-x86_64.tar.bz2"
+        rm -v "Zotero-${version}_linux-x86_64.tar.xz"
         rm -vr .git/ .github/
         ls -lah
 
